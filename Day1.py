@@ -12,3 +12,16 @@ print(age)
 print('keer\'s name') #using \ to skip it
 print(r'c:\keer\nlvideo') #using raw string to print it as to skip special char like \n
 
+names = 'youtube'
+print(names[0])
+print(names[-2])
+print(names[0:2])
+print(names[1:])
+print(names[:4])
+
+print('hello world')
+
+print('my ' + names)
+
+myname = 'keerthu'
+print(len(myname))
