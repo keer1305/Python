@@ -46,7 +46,7 @@ print(tup[1])
 
 #tup[1] = 33 #tuples don't support item assignment
 
-set = {23,13,14,13,76}
+set = {23,13,14,13,76} 
 
 print(set) #only once 13 came ,no proper seqeuncing, no index
 
