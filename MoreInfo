@@ -43,3 +43,48 @@ if, elif and else statements:-
 - The if-elif statement is a shortcut of if..else chain.
 - If the if condition s false, then the condition inside the elif will be checked and executed.
 - While using if-elif statement at the end else block is added that will be executed when none of the above if-elif statements is true.
+
+
+----PASS VS CONTINUE:
+
+Key Differences
+Functionality:
+
+pass: Does nothing, acts as a placeholder.
+continue: Skips the rest of the code inside the loop for the current iteration and proceeds to the next iteration.
+Use Case:
+
+pass: Used where syntactically some code is required but you want to leave it empty for now.
+continue: Used to skip certain iterations in a loop based on a condition.
+
+------pass
+The pass statement is a null operation; it does nothing when executed. It is used as a placeholder in code where a statement is syntactically required but you don't want to execute any code. This can be useful in places where code is yet to be written or to create minimal classes or functions.
+
+for i in range(5):
+    if i == 3:
+        pass  # Do nothing when i is 3
+    print(i)
+Output:
+
+Copy code
+0
+1
+2
+3
+4
+In this example, when i is 3, the pass statement is executed, which does nothing, and the loop continues normally.
+
+---------continue
+The continue statement is used to skip the rest of the code inside the current loop iteration and proceed to the next iteration of the loop. It is typically used within a loop to skip certain conditions without exiting the loop entirely.
+
+for i in range(5):
+    if i == 3:
+        continue  # Skip the rest of the code in this iteration when i is 3
+    print(i)
+Output:
+
+Copy code
+0
+1
+2
+4
