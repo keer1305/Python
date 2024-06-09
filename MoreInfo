@@ -1,0 +1,90 @@
+
+#1
+- CPU has three parts: CU (Control Unit), ALU ( Arithmetic Logic Unit) and MU ( Memory unit).
+- MU is used to store variables and data.
+- ALU has two parts:
+1. AU - Arithmetic Unit ( it performs mathematical calculations)
+2. LU - Logical Unit ( it makes a computer think something)
+
+#2
+If statement:-
+- In programming, we have to apply conditions as per the logic of the code. In python, conditions can be applied through the if keyword.
+- Use of the if keyword specifies the flow of execution of the code.
+- Based on the condition of the problem statement, if keyword helps to decide which set of statements should be executed.
+Syntax:-
+ if (condition):
+  statement;
+- The statements of the if block will be executed only when the condition of the if statement is true. If the condition is false then it will skip the execution of statements present inside the if block.
+- If consists of a block where you can write multiple statements. In python, it is also known as Suite.
+
+#2
+Indentation:-
+- In Python, we have to follow certain indentations that specify the conditions that are present inside a certain block.
+- Indentation simply means a certain number of spaces at the beginning of a code line.
+- Indentation increases the readability of the code.
+
+#3
+Else block:-
+- We can also use multiple if blocks in a code.
+- Multiple uses of the if block decrease the efficiency of a code as the condition will be checked again and again in each if block.
+- To make the code efficient, we use the else block. 
+- If the condition of the if block is true then the else block will be skipped. And if the condition of the if block is false then the else block will be checked and executed.
+
+#4
+Nested if and else statements:-
+- Nested if and else statements are also allowed in Python. 
+- if statement can also be checked inside other if statement. This conditional statement is called a nested if statement.
+- In nested, the inner if condition will be checked only if the outer if condition is true and that helps to see multiple conditions to be satisfied.
+- Round brackets for putting a condition in the if statement is optional. 
+
+#5 
+if, elif and else statements:-
+- elif stands for if-else.
+- The if-elif statement is a shortcut of if..else chain.
+- If the if condition s false, then the condition inside the elif will be checked and executed.
+- While using if-elif statement at the end else block is added that will be executed when none of the above if-elif statements is true.
+
+
+----PASS VS CONTINUE:
+
+Key Differences
+Functionality:
+
+pass: Does nothing, acts as a placeholder.
+continue: Skips the rest of the code inside the loop for the current iteration and proceeds to the next iteration.
+Use Case:
+
+pass: Used where syntactically some code is required but you want to leave it empty for now.
+continue: Used to skip certain iterations in a loop based on a condition.
+
+------pass
+The pass statement is a null operation; it does nothing when executed. It is used as a placeholder in code where a statement is syntactically required but you don't want to execute any code. This can be useful in places where code is yet to be written or to create minimal classes or functions.
+
+for i in range(5):
+    if i == 3:
+        pass  # Do nothing when i is 3
+    print(i)
+Output:
+
+Copy code
+0
+1
+2
+3
+4
+In this example, when i is 3, the pass statement is executed, which does nothing, and the loop continues normally.
+
+---------continue
+The continue statement is used to skip the rest of the code inside the current loop iteration and proceed to the next iteration of the loop. It is typically used within a loop to skip certain conditions without exiting the loop entirely.
+
+for i in range(5):
+    if i == 3:
+        continue  # Skip the rest of the code in this iteration when i is 3
+    print(i)
+Output:
+
+Copy code
+0
+1
+2
+4
