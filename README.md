@@ -13,3 +13,6 @@ Day 6 - Conditional statements in Python
 - if, elif and else statements
 - WHILE,FOR Loops
 
+For else loops
+
+Array - printing array using for loops, reversing the array
