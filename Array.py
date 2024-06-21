@@ -39,3 +39,4 @@ i=0
 while i<len(newArray):
     print(newArray[i])
     i+=1
+
