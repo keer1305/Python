@@ -16,3 +16,5 @@ Day 6 - Conditional statements in Python
 For else loops
 
 Array - printing array using for loops, reversing the array
+
+Numpy array installation & ways of creating array in numpy
