@@ -25,3 +25,5 @@ print(arr)
 
 arr = ones(5,float)
 print(arr)
+
+print(arr)
