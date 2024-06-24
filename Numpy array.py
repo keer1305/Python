@@ -33,4 +33,19 @@ print(arr)
 arr = array([1,4,5,9])
 arr1 = array([6,7,2,8])
 print(sqrt(arr))
-print(concatenate(arr,arr1))
+print(concatenate((arr,arr1)))
+
+#multi dimensional array
+
+arr3= array([[1,2,3,2,5,6],[4,5,6,4,7,5]])
+
+print(arr3.ndim)
+print(arr3.shape)
+print(arr3.size)
+
+#convert 2d array to 1d array
+arr4=arr3.flatten()
+print(arr4)
+
+arr5 = arr4.reshape(3,4)
+print(arr5)
