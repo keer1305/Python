@@ -27,3 +27,10 @@ arr = ones(5,float)
 print(arr)
 
 print(arr)
+
+#Copying the array
+
+arr = array([1,4,5,9])
+arr1 = array([6,7,2,8])
+print(sqrt(arr))
+print(concatenate(arr,arr1))
