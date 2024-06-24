@@ -49,3 +49,6 @@ print(arr4)
 
 arr5 = arr4.reshape(3,4)
 print(arr5)
+
+arr5 = arr4.reshape(3,4)
+print(arr5)
