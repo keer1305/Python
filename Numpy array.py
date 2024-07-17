@@ -52,3 +52,13 @@ print(arr5)
 
 arr5 = arr4.reshape(3,4)
 print(arr5)
+
+#matrices:
+m=matrix(arr5)
+print(m)
+
+m1=matrix('1 2 3;4 5 6')
+print(m1)
+
+#to get the diagonal elements
+print(diagonal(m1))
